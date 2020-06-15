@@ -1,13 +1,13 @@
-package sngDB
+package goMod2
 
 import (
-	sngDB "smartnet.ru/sngDB"
+	goMod2 "smartnet.ru/goMod2"
 	"testing"
 )
 
 func TestGetDB(t *testing.T) {
 	want := "GetDB - работает"
-	if got := sngDB.GetDB(); got != want {
+	if got := goMod2.GetDB(); got != want {
 		t.Errorf("GetDB() = %q, а надо %q", got, want)
 	}
 }
