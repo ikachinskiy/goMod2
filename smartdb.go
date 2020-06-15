@@ -7,3 +7,7 @@ func GetDB() string {
 func SetDB(dbname string) string {
 	return dbname
 }
+
+func SetDB(dbname string) string {
+	return dbname
+}
