@@ -1,5 +1,5 @@
 package goMod2
 
 func GetDB() string {
-	return "GetDB - работает"
+	return "GetDB - работает из private"
 }
