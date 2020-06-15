@@ -4,6 +4,7 @@ func GetDB() string {
 	return "GetDB - работает из private"
 }
 
-func SetDB(dbname string) string {
-	return dbname
+func SetDB(dbname string) (string, int) {
+	err := 1
+	return dbname, err
 }

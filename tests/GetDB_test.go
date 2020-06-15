@@ -14,7 +14,7 @@ func TestGetDB(t *testing.T) {
 
 func TestSetDB(t *testing.T) {
 	dbname := "smartnet"
-	if got := goMod2.SetDB(dbname); got != dbname {
-		t.Errorf("SetDB(%q) = %q, а надо %q", dbname, got, dbname)
+	if got, err := goMod2.SetDB(dbname); got != dbname {
+		t.Errorf("SetDB(%q, %q) = %q, а надо %q", dbname, err, got, dbname)
 	}
 }
