@@ -1,7 +1,7 @@
 package goMod2
 
 import (
-	goMod2 "smartnet.ru/goMod2"
+	goMod2 "github.com/ikachinskiy/goMod2"
 	"testing"
 )
 
