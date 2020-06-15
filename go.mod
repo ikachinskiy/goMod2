@@ -1,3 +1,3 @@
-module smartnet.ru/goMod2
+module github.com/ikachinskiy/goMod2
 
 go 1.14
