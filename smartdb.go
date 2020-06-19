@@ -5,6 +5,6 @@ func GetDB() string {
 }
 
 func SetDB(dbname string) (string, int) {
-	err := 1
+	err := 333
 	return dbname, err
 }
